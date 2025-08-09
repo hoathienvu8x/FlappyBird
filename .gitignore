@@ -21,6 +21,9 @@ FlappyBird/app/build/
 FlappyBird/app/src/main/libs/*/libflappybird.so
 FlappyBird/mykeystore.jks
 
+# Environment variables file
+.env
+
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
