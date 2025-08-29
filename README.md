@@ -34,12 +34,31 @@ All of this was combined using OpenGL ES 2, shaders, and Android Native Activity
 
 ## 🔧 Build:
 
+### Visual Studio (Windows)
+
 1. Download [Visual Studio 2022](https://visualstudio.microsoft.com/).
 2. Install components: C++ Desktop Development and C++ Mobile Development.
 3. Download Android Studio (for apktool, sdk, ndk).
 4. Install NDK 27.1.12297006 and Android SDK Platform 30.
 5. Configure the project for "Debug ARM" and make changes to build.bat.
 6. Compile via CTRL + B. 🛠️
+
+### Linux and macOS (Makefile)
+
+For Linux and macOS users, you can build the project using the provided Makefile:
+
+1. Install the Android command-line tools.
+2. Set up your environment variables in a `.env` file in the project root directory (see `.env.example` for an example).
+3. Build the project:
+   ```bash
+   cd FlappyBird
+   make
+   ```
+   
+For more detailed instructions, please refer to [BUILDING.md](BUILDING.md).
+
+The signed APK will be generated at:
+`FlappyBird/app/build/outputs/apk/FlappyBird-signed.apk`
 
 ## 📄 Copyright:
 
